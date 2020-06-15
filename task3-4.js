@@ -15,8 +15,8 @@ function add() {
 function display() {
     let output = "";
 
-    names.forEach(function (x) {
-        output += `<ul><li>${x}</li></ul>`
+    names.forEach(function (a) {
+        output += `<ul><li>${a}</li></ul>`
     });
 
     document.getElementById("values").innerHTML = output;
